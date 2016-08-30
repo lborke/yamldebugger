@@ -33,3 +33,33 @@ hello <- function() {
 testfunction <- function() {
   print("test2")
 }
+
+
+#' YAML initialization function.
+#'
+#' @param current working directory with Qs for debugging
+#'
+#' @param boolean trigger for showing / not showing the standard keywords
+#'
+#' @return list with data needed in the further process.
+#'
+#' @examples
+#' d_init = yaml.debugger.init("c:/test", show_keywords = TRUE)
+#'
+#' @export
+yaml.debugger.init = function(RootPath = "C:/r/test", show_keywords = FALSE) {
+  # specify the path where your quantlets are stored
+
+  allKeywords = tolower(allKeywords)
+
+  if (show_keywords) {
+    print(allKeywords)
+  }
+
+  res = list()
+  res$RootPath = RootPath
+  res$allKeywords = allKeywords
+
+  return(res)
+}
+

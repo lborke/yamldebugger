@@ -2,3 +2,4 @@
 
 export(hello)
 export(testfunction)
+export(yaml.debugger.init)
