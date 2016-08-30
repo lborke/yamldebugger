@@ -2,13 +2,15 @@
 
 ### Quickie for installation and first tests
 
+	# needed only for package installation or update
 	library(devtools)
-
 	devtools::install_github("lborke/yamldebugger")
 	
+	# load the package every time you want to use 'yamldebugger'
 	library(yamldebugger)
 	
 	allKeywords
+	"plot" %in% allKeywords
 	
 	
 first real function
