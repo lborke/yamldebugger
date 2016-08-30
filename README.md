@@ -25,10 +25,15 @@ second real function
 	
 Application example. Make sure you have some Q folders on your lokal disk for validating.
 Let 'workdir' be the folder where the Q folders are stored.
+
 	workdir = "c:/test"
+	
 	d_init = yaml.debugger.init(workdir, show_keywords = TRUE)
+	
 	qnames = yaml.debugger.get.qnames(d_init$RootPath)
+	
 	d_results = yaml.debugger.run(qnames, d_init)
+	
 	OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
 	
 
