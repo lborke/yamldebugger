@@ -16,5 +16,11 @@
 	
 	x
 	
+first real function
+
+	help(yaml.debugger.init)
+	
+	d_init = yaml.debugger.init("c:/test", show_keywords = TRUE)
+	
 
 to be continued...
