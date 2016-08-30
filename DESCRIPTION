@@ -7,7 +7,7 @@ Description: YAML parser debugger according to the QuantNet style guide, see
     https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/Styleguide.md .
     It may be freely used for testing and validating the own Quantlets
     bevore uploading them into https://github.com/quantlet .
-License: What license is it under?
+License: MIT + file LICENSE
 Imports:
     yaml,
     stringr,
