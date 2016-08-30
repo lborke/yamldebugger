@@ -2,7 +2,7 @@
 % Please edit documentation in R/yamldebugger.R
 \name{yaml.debugger.get.qnames}
 \alias{yaml.debugger.get.qnames}
-\title{Load list of Q folders. RootPath is required where the Qs are located.}
+\title{Loads the list of Q folders. RootPath is required where the Qs are located.}
 \usage{
 yaml.debugger.get.qnames(RootPath, show_qnames = TRUE)
 }
@@ -15,7 +15,7 @@ yaml.debugger.get.qnames(RootPath, show_qnames = TRUE)
 the list with Q names needed in the further process.
 }
 \description{
-Load list of Q folders. RootPath is required where the Qs are located.
+Loads the list of Q folders. RootPath is required where the Qs are located.
 }
 \examples{
 qnames = yaml.debugger.get.qnames(d_init$RootPath)
