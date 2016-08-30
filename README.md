@@ -23,8 +23,8 @@ second real function
 	
 	qnames = yaml.debugger.get.qnames(d_init$RootPath)
 	
-Application example. Make sure you have some Q folders on your lokal disk for validating.
-Let 'workdir' be the folder where the Q folders are stored.
+
+### Application example. Make sure you have some Q folders on your lokal disk for validating. Let 'workdir' be the folder where the Q folders are stored.
 
 	workdir = "c:/test"
 	
