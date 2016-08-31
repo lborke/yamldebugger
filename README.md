@@ -14,13 +14,12 @@
 	
 	
 first real function
-
-	help(yaml.debugger.init)
-	
-	d_init = yaml.debugger.init("c:/test", show_keywords = TRUE)
+```r
+help(yaml.debugger.init)
+d_init = yaml.debugger.init("c:/test", show_keywords = TRUE)
+```
 
 second real function	
-
 ```r
 help(yaml.debugger.get.qnames)
 qnames = yaml.debugger.get.qnames(d_init$RootPath)
