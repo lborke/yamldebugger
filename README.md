@@ -57,3 +57,24 @@ to be continued...
      Q Names   Missing Style Guide fields Descriptions stats            Keywords stats            
 [1,] "ICplots" ""                         "13 word(s), 63 Character(s)" "5: 3 (standard), 2 (new)"
 ```
+
+[Stochastic_processes](https://github.com/b2net/Stochastic_processes)
+```r
+> qnames = yaml.debugger.get.qnames(d_init$RootPath)
+[1] "3 Q folder(s) found:"
+[1] "ar1_process"    "random_walk"    "randomwalk_ar1"
+> d_results = yaml.debugger.run(qnames, d_init)
+[1] "1: ar1_process"
+[1] "--------------------------------------------------------------------"
+[1] "2: random_walk"
+[1] "--------------------------------------------------------------------"
+[1] "3: randomwalk_ar1"
+[1] "--------------------------------------------------------------------"
+> 
+> OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
+> OverView 
+     Q Names          Missing Style Guide fields Descriptions stats             Keywords stats               
+[1,] "ar1_process"    ""                         "32 word(s), 157 Character(s)" "NA: 9 (standard), NA (new)" 
+[2,] "random_walk"    ""                         "17 word(s), 93 Character(s)"  "NA: 9 (standard), NA (new)" 
+[3,] "randomwalk_ar1" ""                         "58 word(s), 273 Character(s)" "NA: 12 (standard), NA (new)"
+```
