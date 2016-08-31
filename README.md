@@ -79,3 +79,30 @@ to be continued...
 [2,] "random_walk"    ""                         "17 word(s), 93 Character(s)"  "NA: 9 (standard), NA (new)" 
 [3,] "randomwalk_ar1" ""                         "58 word(s), 273 Character(s)" "NA: 12 (standard), NA (new)"
 ```
+
+## [DYTEC](https://github.com/QuantLet/DYTEC)
+```r
+> qnames = yaml.debugger.get.qnames(d_init$RootPath)
+[1] "4 Q folder(s) found:"
+[1] "chp_test"             "data_load_hurricanes" "P_beta_est"           "tau_variance"        
+> 
+> d_results = yaml.debugger.run(qnames, d_init)
+[1] "1: chp_test"
+[1] "--------------------------------------------------------------------"
+[1] "2: data_load_hurricanes"
+[1] "new/bad keywords: dytec"
+[1] "--------------------------------------------------------------------"
+[1] "3: P_beta_est"
+[1] "new/bad keywords: dytec"
+[1] "--------------------------------------------------------------------"
+[1] "4: tau_variance"
+[1] "new/bad keywords: norm, tau"
+[1] "--------------------------------------------------------------------"
+> OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
+> OverView 
+     Q Names                Missing Style Guide fields Descriptions stats             Keywords stats              
+[1,] "chp_test"             ""                         "17 word(s), 91 Character(s)"  "NA: 6 (standard), NA (new)"
+[2,] "data_load_hurricanes" ""                         "17 word(s), 100 Character(s)" "6: 5 (standard), 1 (new)"  
+[3,] "P_beta_est"           ""                         "36 word(s), 200 Character(s)" "8: 7 (standard), 1 (new)"  
+[4,] "tau_variance"         ""                         "21 word(s), 110 Character(s)" "7: 5 (standard), 2 (new)"
+```
