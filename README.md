@@ -21,10 +21,10 @@ first real function
 
 second real function	
 
-	help(yaml.debugger.get.qnames)
-	
-	qnames = yaml.debugger.get.qnames(d_init$RootPath)
-	
+```r
+help(yaml.debugger.get.qnames)
+qnames = yaml.debugger.get.qnames(d_init$RootPath)
+```
 
 ### Application example. Make sure you have some Q folders on your lokal disk for validating. Let 'workdir' be the folder where the Q folders are stored.
 
