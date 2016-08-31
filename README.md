@@ -44,6 +44,7 @@ to be continued...
 
 ### History of Qs validated by 'yamldebugger' (Version 0.5.0) :
 
+## [IC](https://github.com/QuantLet/IC)
 ```r
 > qnames = yaml.debugger.get.qnames(d_init$RootPath)
 [1] "1 Q folder(s) found:"
@@ -58,7 +59,7 @@ to be continued...
 [1,] "ICplots" ""                         "13 word(s), 63 Character(s)" "5: 3 (standard), 2 (new)"
 ```
 
-[Stochastic_processes](https://github.com/b2net/Stochastic_processes)
+## [Stochastic_processes](https://github.com/b2net/Stochastic_processes)
 ```r
 > qnames = yaml.debugger.get.qnames(d_init$RootPath)
 [1] "3 Q folder(s) found:"
