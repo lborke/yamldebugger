@@ -1,25 +1,25 @@
 # yamldebugger - test package
 
 ### Quickie for installation and first tests
+```r
+# needed only for package installation or update
+library(devtools)
+devtools::install_github("lborke/yamldebugger")
 
-	# needed only for package installation or update
-	library(devtools)
-	devtools::install_github("lborke/yamldebugger")
+# load the package every time you want to use 'yamldebugger'
+library(yamldebugger)
+
+allKeywords
+"plot" %in% allKeywords
+```
 	
-	# load the package every time you want to use 'yamldebugger'
-	library(yamldebugger)
-	
-	allKeywords
-	"plot" %in% allKeywords
-	
-	
-first real function
+first real function :
 ```r
 help(yaml.debugger.init)
 d_init = yaml.debugger.init("c:/test", show_keywords = TRUE)
 ```
 
-second real function	
+second real function :
 ```r
 help(yaml.debugger.get.qnames)
 qnames = yaml.debugger.get.qnames(d_init$RootPath)
