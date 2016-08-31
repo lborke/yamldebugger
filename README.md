@@ -42,7 +42,7 @@ OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
 to be continued...
 
 
-### History of Qs validated by 'yamldebugger' (Version 0.5.0) :
+# History of Qs validated by 'yamldebugger' (Version 0.5.0) :
 
 ## [IC](https://github.com/QuantLet/IC)
 ```r
