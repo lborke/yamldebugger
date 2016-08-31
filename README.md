@@ -106,3 +106,30 @@ to be continued...
 [3,] "P_beta_est"           ""                         "36 word(s), 200 Character(s)" "8: 7 (standard), 1 (new)"  
 [4,] "tau_variance"         ""                         "21 word(s), 110 Character(s)" "7: 5 (standard), 2 (new)"
 ```
+
+## [big_data_analysis](https://github.com/b2net/big_data_analysis)
+```r
+> qnames = yaml.debugger.get.qnames(d_init$RootPath)
+[1] "4 Q folder(s) found:"
+[1] "GoogleCorrelateWords_and_FRMcomparison" "TreeModel"                              "Unemployment_Google_vs_Official"       
+[4] "Unemploymentrate_jobagency_comparison" 
+> 
+> d_results = yaml.debugger.run(qnames, d_init)
+[1] "1: GoogleCorrelateWords_and_FRMcomparison"
+[1] "new/bad keywords: google, google trends"
+[1] "--------------------------------------------------------------------"
+[1] "2: TreeModel"
+[1] "--------------------------------------------------------------------"
+[1] "3: Unemployment_Google_vs_Official"
+[1] "--------------------------------------------------------------------"
+[1] "4: Unemploymentrate_jobagency_comparison"
+[1] "--------------------------------------------------------------------"
+> 
+> OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
+> OverView
+     Q Names                                  Missing Style Guide fields Descriptions stats             Keywords stats              
+[1,] "GoogleCorrelateWords_and_FRMcomparison" ""                         "85 word(s), 441 Character(s)" "15: 13 (standard), 2 (new)"
+[2,] "TreeModel"                              ""                         "57 word(s), 264 Character(s)" "NA: 9 (standard), NA (new)"
+[3,] "Unemployment_Google_vs_Official"        ""                         "64 word(s), 311 Character(s)" "NA: 6 (standard), NA (new)"
+[4,] "Unemploymentrate_jobagency_comparison"  ""                         "36 word(s), 170 Character(s)" "NA: 9 (standard), NA (new)"
+```
