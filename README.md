@@ -220,6 +220,18 @@ Error in yaml.load(Meta) :
 [1] "VaRcdfDG"
 [1] "Error in yaml.load(Meta) : \n  Scanner error: while scanning a simple key at line 18, column 2could not find expected ':' at line 19, column 2\n\n"
 [1] "--------------------------------------------------------------------"
+> OverView
+      Q Names       Missing Style Guide fields Descriptions stats            Keywords stats               
+ [1,] NA            NA                         NA                            "NA: NA (standard), NA (new)"
+ [2,] NA            NA                         NA                            "NA: NA (standard), NA (new)"
+ [3,] "Eulerscheme" "Author"                   "4 word(s), 19 Character(s)"  "2: 1 (standard), 1 (new)"   
+ [4,] NA            NA                         NA                            "NA: NA (standard), NA (new)"
+ [5,] NA            NA                         NA                            "NA: NA (standard), NA (new)"
+ [6,] ""            "qname, Author"            "6 word(s), 36 Character(s)"  "NA: 1 (standard), NA (new)" 
+ [7,] ""            "qname, Keywords, Author"  "4 word(s), 19 Character(s)"  "NA: NA (standard), NA (new)"
+ [8,] ""            "qname, Keywords, Author"  "15 word(s), 88 Character(s)" "NA: NA (standard), NA (new)"
+ [9,] NA            NA                         NA                            "NA: NA (standard), NA (new)"
+[10,] NA            NA                         NA                            "NA: NA (standard), NA (new)"
 ```
 
 
