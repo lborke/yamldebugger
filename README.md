@@ -133,3 +133,18 @@ to be continued...
 [3,] "Unemployment_Google_vs_Official"        ""                         "64 word(s), 311 Character(s)" "NA: 6 (standard), NA (new)"
 [4,] "Unemploymentrate_jobagency_comparison"  ""                         "36 word(s), 170 Character(s)" "NA: 9 (standard), NA (new)"
 ```
+
+## [MVA-ToDo](https://github.com/QuantLet/MVA-ToDo)
+```r
+> qnames = yaml.debugger.get.qnames(d_init$RootPath)
+[1] "1 Q folder(s) found:"
+[1] "QID-1225-MVApcasimu"
+> d_results = yaml.debugger.run(qnames, d_init)
+[1] "1: QID-1225-MVApcasimu"
+[1] "--------------------------------------------------------------------"
+> 
+> OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
+> OverView 
+     Q Names      Missing Style Guide fields Descriptions stats            Keywords stats              
+[1,] "MVApcasimu" ""                         "16 word(s), 87 Character(s)" "NA: 9 (standard), NA (new)"
+```
