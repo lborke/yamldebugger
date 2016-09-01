@@ -148,3 +148,78 @@ to be continued...
      Q Names      Missing Style Guide fields Descriptions stats            Keywords stats              
 [1,] "MVApcasimu" ""                         "16 word(s), 87 Character(s)" "NA: 9 (standard), NA (new)"
 ```
+
+## [First 10 Qs from XFG-ToDo](https://github.com/QuantLet/XFG-ToDo)
+```r
+> qnames = yaml.debugger.get.qnames(d_init$RootPath)
+[1] "10 Q folder(s) found:"
+ [1] "cdf2quant"           "DGdecompS"           "Eulerscheme"         "gFourierInversion"   "kernel"             
+ [6] "nw"                  "optionprice"         "regxest"             "StandardNormalCharf" "VaRcdfDG"           
+> d_results = yaml.debugger.run(qnames, d_init)
+[1] "1: cdf2quant"
+Error in yaml.load(Meta) : 
+  Scanner error: while scanning a simple key at line 12, column 1could not find expected ':' at line 14, column 1
+
+[1] "yaml parser error in: cdf2quant"
+[1] "--------------------------------------------------------------------"
+[1] "2: DGdecompS"
+Error in yaml.load(Meta) : 
+  Scanner error: while scanning a simple key at line 17, column 1could not find expected ':' at line 19, column 1
+
+[1] "yaml parser error in: DGdecompS"
+[1] "--------------------------------------------------------------------"
+[1] "3: Eulerscheme"
+[1] "new/bad keywords: numerical approximation"
+[1] "--------------------------------------------------------------------"
+[1] "4: gFourierInversion"
+Error in yaml.load(Meta) : 
+  Scanner error: while scanning a simple key at line 15, column 1could not find expected ':' at line 17, column 1
+
+[1] "yaml parser error in: gFourierInversion"
+[1] "--------------------------------------------------------------------"
+[1] "5: kernel"
+Error in yaml.load(Meta) : 
+  Scanner error: while scanning a simple key at line 9, column 1could not find expected ':' at line 11, column 1
+
+[1] "yaml parser error in: kernel"
+[1] "--------------------------------------------------------------------"
+[1] "6: nw"
+[1] "--------------------------------------------------------------------"
+[1] "7: optionprice"
+[1] "--------------------------------------------------------------------"
+[1] "8: regxest"
+[1] "--------------------------------------------------------------------"
+[1] "9: StandardNormalCharf"
+Error in yaml.load(Meta) : 
+  Scanner error: while scanning a simple key at line 16, column 1could not find expected ':' at line 17, column 1
+
+[1] "yaml parser error in: StandardNormalCharf"
+[1] "--------------------------------------------------------------------"
+[1] "10: VaRcdfDG"
+Error in yaml.load(Meta) : 
+  Scanner error: while scanning a simple key at line 18, column 2could not find expected ':' at line 19, column 2
+
+[1] "yaml parser error in: VaRcdfDG"
+[1] "--------------------------------------------------------------------"
+> OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
+[1] "cdf2quant"
+[1] "Error in yaml.load(Meta) : \n  Scanner error: while scanning a simple key at line 12, column 1could not find expected ':' at line 14, column 1\n\n"
+[1] "--------------------------------------------------------------------"
+[1] "DGdecompS"
+[1] "Error in yaml.load(Meta) : \n  Scanner error: while scanning a simple key at line 17, column 1could not find expected ':' at line 19, column 1\n\n"
+[1] "--------------------------------------------------------------------"
+[1] "gFourierInversion"
+[1] "Error in yaml.load(Meta) : \n  Scanner error: while scanning a simple key at line 15, column 1could not find expected ':' at line 17, column 1\n\n"
+[1] "--------------------------------------------------------------------"
+[1] "kernel"
+[1] "Error in yaml.load(Meta) : \n  Scanner error: while scanning a simple key at line 9, column 1could not find expected ':' at line 11, column 1\n\n"
+[1] "--------------------------------------------------------------------"
+[1] "StandardNormalCharf"
+[1] "Error in yaml.load(Meta) : \n  Scanner error: while scanning a simple key at line 16, column 1could not find expected ':' at line 17, column 1\n\n"
+[1] "--------------------------------------------------------------------"
+[1] "VaRcdfDG"
+[1] "Error in yaml.load(Meta) : \n  Scanner error: while scanning a simple key at line 18, column 2could not find expected ':' at line 19, column 2\n\n"
+[1] "--------------------------------------------------------------------"
+```
+
+
