@@ -234,4 +234,27 @@ Error in yaml.load(Meta) :
 [10,] NA            NA                         NA                            "NA: NA (standard), NA (new)"
 ```
 
+## [PCA-in-an-Asymmetric-Norm](https://github.com/QuantLet/PCA-in-an-Asymmetric-Norm)
+```r
+> qnames = yaml.debugger.get.qnames(d_init$RootPath)
+[1] "4 Q folder(s) found:"
+[1] "PEC_algorithm_princdir" "PEC_algorithm_topdown"  "PEC_fMRI"               "PEC_temperature"       
+> d_results = yaml.debugger.run(qnames, d_init)
+[1] "1: PEC_algorithm_princdir"
+[1] "--------------------------------------------------------------------"
+[1] "2: PEC_algorithm_topdown"
+[1] "--------------------------------------------------------------------"
+[1] "3: PEC_fMRI"
+[1] "--------------------------------------------------------------------"
+[1] "4: PEC_temperature"
+[1] "--------------------------------------------------------------------"
+> OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
+> OverView
+     Q Names         Missing Style Guide fields Descriptions stats            Keywords stats               
+[1,] NA              NA                         NA                            "NA: NA (standard), NA (new)"
+[2,] "China_example" ""                         "15 word(s), 91 Character(s)" "NA: 4 (standard), NA (new)" 
+[3,] "China_example" ""                         "15 word(s), 91 Character(s)" "NA: 4 (standard), NA (new)" 
+[4,] "China_example" ""                         "15 word(s), 91 Character(s)" "NA: 4 (standard), NA (new)"
+```
+
 
