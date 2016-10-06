@@ -257,4 +257,23 @@ Error in yaml.load(Meta) :
 [4,] "China_example" ""                         "15 word(s), 91 Character(s)" "NA: 4 (standard), NA (new)"
 ```
 
+## [gaplmsbk](https://github.com/QuantLet/gaplmsbk)
+```r
+> qnames = yaml.debugger.get.qnames(d_init$RootPath)
+[1] "1 Q folder(s) found:"
+[1] "gaplmsbk-master"
+> d_results = yaml.debugger.run(qnames, d_init)
+[1] "1: gaplmsbk-master"
+Error in yaml.load(Meta) : 
+  Scanner error: mapping values are not allowed in this context at line 13, column 21
+[1] "yaml parser error in: gaplmsbk-master"
+[1] "--------------------------------------------------------------------"
+> OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
+[1] "gaplmsbk-master"
+[1] "Error in yaml.load(Meta) : \n  Scanner error: mapping values are not allowed in this context at line 13, column 21\n"
+[1] "--------------------------------------------------------------------"
+> OverView 
+     Q Names Missing Style Guide fields Descriptions stats Keywords stats               
+[1,] NA      NA                         NA                 "NA: NA (standard), NA (new)"
+```
 
