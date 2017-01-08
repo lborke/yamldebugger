@@ -25,8 +25,7 @@ help(yaml.debugger.get.qnames)
 qnames = yaml.debugger.get.qnames(d_init$RootPath)
 ```
 
-### Application example. Make sure you have some Q folders on your lokal disk for validating. Let 'workdir' be the folder where the Q folders are stored,
-e.g. the local version of the git repository containing Qs.
+### Application example. Make sure you have some Q folders on your lokal disk for validating. Let 'workdir' be the folder where the Q folders are stored, e.g. the local version of the git repository containing Qs.
 
 ```r
 workdir = "c:/test"
