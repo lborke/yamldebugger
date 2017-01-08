@@ -1,16 +1,22 @@
 Package: yamldebugger
 Type: Package
 Title: YAML parser debugger according to the QuantNet style guide
-Version: 0.5.0
-Authors@R: person("Lukas", "Borke", email = "lukas.borke@hu-berlin.de", role = c("aut", "cre"))
+Version: 1.0
+Date: 2017-01-08
+Authors@R: person("Lukas", "Borke", email = "lukas@borke.net", role = c("aut", "cre"))
 Description: YAML parser debugger according to the QuantNet style guide, see
-    https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/Styleguide.md .
+    https://github.com/Quantlet/Styleguide-and-FAQ/blob/master/Styleguide.md .
     It may be freely used for testing and validating the own Quantlets
     bevore uploading them into https://github.com/quantlet .
 License: MIT + file LICENSE
+Depends: R (>= 2.10)
 Imports:
     yaml,
     stringr,
-    stringi
+    stringi,
+    tools
 LazyData: TRUE
 RoxygenNote: 5.0.1
+Author: Lukas Borke [aut, cre]
+Maintainer: Lukas Borke <lukas@borke.net>
+Date/Publication:  2017-01-08 09:00:00

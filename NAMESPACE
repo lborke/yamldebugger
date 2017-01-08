@@ -1,2 +1,6 @@
 exportPattern("^[[:alpha:]]+")
-import(yaml, stringr, stringi)
+importFrom("utils", "View")
+importFrom("tools", "file_ext")
+importFrom("tools", "file_path_sans_ext")
+importFrom("stringi", "stri_stats_latex")
+import(yaml, stringr)
