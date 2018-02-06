@@ -39,4 +39,17 @@ d_results = yaml.debugger.run(qnames, d_init)
 OverView = yaml.debugger.summary(qnames, d_results, summaryType = "mini")
 ```
 
-to be continued...
+## Citing yamldebugger
+
+If you use yamldebugger in your research or wish to refer to the [Quantlets](https://github.com/QuantLet) validated by this R package, please use the following BibTeX entry.
+
+```
+@Manual{yamldebugger,
+    title = {yamldebugger: YAML parser debugger according to the QuantNet style guide},
+    author = {Lukas Borke},
+    year = {2017},
+    note = {R package version 1.0},
+    url = {https://github.com/lborke/yamldebugger}
+}
+```
+
